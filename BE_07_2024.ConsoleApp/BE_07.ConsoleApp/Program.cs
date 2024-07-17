@@ -10,6 +10,7 @@ namespace BE_07.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Xin chào các bạn");
         }
     }
 }
