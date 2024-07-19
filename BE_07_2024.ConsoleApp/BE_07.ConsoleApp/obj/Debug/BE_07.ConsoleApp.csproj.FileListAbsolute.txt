@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\bin\Debug\BE_07.ConsoleApp.exe.config
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\bin\Debug\BE_07.ConsoleApp.exe
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\bin\Debug\BE_07.ConsoleApp.pdb
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\obj\Debug\BE_07.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\obj\Debug\BE_07.ConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\obj\Debug\BE_07.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\obj\Debug\BE_07.ConsoleApp.exe
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE_07.ConsoleApp\obj\Debug\BE_07.ConsoleApp.pdb
