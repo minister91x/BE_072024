@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\BE072024.Common.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\BE072024.Common.pdb
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common_NetFrameWork.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common_NetFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common.pdb

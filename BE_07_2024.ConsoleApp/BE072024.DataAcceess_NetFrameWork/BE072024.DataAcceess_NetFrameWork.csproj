@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6379B71A-6394-46FD-B549-2AA3FC0CF230}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>BE_07.ConsoleApp</RootNamespace>
-    <AssemblyName>BE_07.ConsoleApp</AssemblyName>
+    <ProjectGuid>{79A5F70F-3AF8-4DDF-B3E6-7E22192D9040}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BE072024.DataAcceess_NetFrameWork</RootNamespace>
+    <AssemblyName>BE072024.DataAcceess_NetFrameWork</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,17 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataTooLongExeption.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Bai2_Bussiness.cs" />
+    <Compile Include="DO\Struct.cs" />
+    <Compile Include="OtherBussiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BE072024.DataAcceess_NetFrameWork\BE072024.DataAcceess_NetFrameWork.csproj">
-      <Project>{79a5f70f-3af8-4ddf-b3e6-7e22192d9040}</Project>
-      <Name>BE072024.DataAcceess_NetFrameWork</Name>
+    <ProjectReference Include="..\BE072024.Common\BE072024.Common_NetFrameWork.csproj">
+      <Project>{390f2d5e-3f71-4ecb-bf54-574526383b59}</Project>
+      <Name>BE072024.Common_NetFrameWork</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
