@@ -1,4 +1,5 @@
-﻿using BE072024.DataAcceess_NetFrameWork.DO;
+﻿using BE072024.DataAcceess_NetFrameWork.Bussiness;
+using BE072024.DataAcceess_NetFrameWork.DO;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -132,7 +133,31 @@ namespace BE_07.ConsoleApp
 
             var arrstr = myString + "def";
 
+            var employeeBusiness = new EmployeerBussiness();
+            var filePath = @"C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\Template\Employeer_Insert_Template.xlsx";
+            var rs = employeeBusiness.NhapTuExcelFile(filePath);
 
+            Console.WriteLine("Kết quả {0}", rs.ReturrnMsg);
+
+            var list1 = employeeBusiness.DanhSach_NhanVien(0);
+            if(list1!=null && list1.Count > 0)
+            {
+                Console.Write("List 1 \n");
+                foreach (var item in list1)
+                {
+                    Console.Write("{0} \n", item.EmployeerName);
+                }
+            }
+
+            var list2 = employeeBusiness.DanhSach_NhanVien(5);
+            if (list2 != null && list2.Count > 0)
+            {
+                Console.Write("List 2 \n");
+                foreach (var item in list2)
+                {
+                    Console.Write("{0} \n", item.EmployeerName);
+                }
+            }
             Console.ReadKey();
         }
 
