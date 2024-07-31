@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,8 @@ namespace BE_07.ConsoleApp
 
 
             var myStruct = new AnimalStruct(10, "cat", "bebe");
+            var myStruct2 = new AnimalStruct();
+
             // var chan = myStruct.soChan;
             myStruct.sound = "meomeo";
             Console.Write("SoChan  {0} \n", myStruct.Get_SoChan());
@@ -63,7 +66,7 @@ namespace BE_07.ConsoleApp
 
             }
 
-            if (myVariable == (int)TRANG_THAI_GIAO_DICH.THANH_CONG) 
+            if (myVariable == (int)TRANG_THAI_GIAO_DICH.THANH_CONG)
             {
 
             }
@@ -80,6 +83,56 @@ namespace BE_07.ConsoleApp
             {
                 Console.Write("item  {0} \n", item);
             }
+
+            // Bài 4
+            var dateNow = DateTime.Now; // UTC+ 7 
+            var dateUtcNow = DateTime.UtcNow.AddHours(7);
+            var dateUtcNow2 = DateTime.UtcNow;
+
+            var timeSpan = new TimeSpan(0, -7, 0, 0);
+
+            dateUtcNow2 = dateUtcNow2.Add(timeSpan);
+
+            Console.Write("dateNow  {0} \n", dateNow);
+            Console.Write("dateUtcNow  {0} \n", dateUtcNow);
+            Console.Write("dateUtcNow2  {0} \n", dateUtcNow2);
+
+
+            // tính số ngày mình được sinh ra sử dụng datetime 
+            // dùng hàm SubDate
+
+            DateTime aDateTime = DateTime.Now;
+            DateTime birthday = new DateTime(1991, 02, 08);
+            TimeSpan interval = aDateTime.Subtract(birthday);
+
+            Console.Write("TotalDays  {0} \n", interval.TotalDays);
+
+            var datestring1 = aDateTime.ToString("dd/MM/yyyy HH:mm:ss tt");
+            var datestring3 = aDateTime.ToString("d/M/yyyy");
+            var datestring2 = aDateTime.ToString("dd/MMMM");
+            var datestring4 = aDateTime.ToString("dd/MMM");
+            Console.Write("datestring1  {0} \n", datestring1);
+            Console.Write("datestring2  {0} \n", datestring2);
+            Console.Write("datestring3  {0} \n", datestring3);
+            Console.Write("datestring3  {0} \n", datestring4);
+
+            var dayInMonth = DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month);
+            Console.Write("dayInMonth  {0} \n", dayInMonth);
+
+            var myString = "a_b_c";
+
+            //DateTime dateValue;
+            //if (!DateTime.TryParseExact(myString, "dd/MM/yyyy", new CultureInfo("en-US"), DateTimeStyles.None, out dateValue))
+            //{
+            //    Console.Write("{0} không phải định dạng ngày tháng \n", myString);
+            //}
+
+            //var myDatTime = DateTime.ParseExact(myString, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            ////  Console.Write("dayInMonth  {0} \n", myDatTime.AddDays(1).ToString("dd/MM/yyyy"));
+
+            var arrstr = myString + "def";
+
+
             Console.ReadKey();
         }
 
