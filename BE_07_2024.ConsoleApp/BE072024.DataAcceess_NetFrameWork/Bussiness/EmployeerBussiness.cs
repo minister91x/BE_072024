@@ -141,6 +141,8 @@ namespace BE072024.DataAcceess_NetFrameWork.Bussiness
 
                 //Cách 2 dùng linq
                 var myList = listEmployeer.FindAll(s => s.DateOfStart.Year == dateExprired.Year);
+
+               // var mylist2 = from emp in listEmployeer select emp.EmployeerId;
                 return myList;
 
             }

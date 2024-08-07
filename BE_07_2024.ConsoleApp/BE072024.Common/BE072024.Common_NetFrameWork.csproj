@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IGenericInterface.cs" />
+    <Compile Include="IProductGenericInterface.cs" />
+    <Compile Include="MyGenericClass.cs" />
     <Compile Include="ValidateData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -75,8 +75,12 @@
   <ItemGroup>
     <Compile Include="Bai2_Bussiness.cs" />
     <Compile Include="Bussiness\EmployeerBussiness.cs" />
+    <Compile Include="Bussiness\IGenericInterface.cs" />
+    <Compile Include="Bussiness\EmployeerGenericInterface.cs" />
+    <Compile Include="Bussiness\ProductGeneric.cs" />
     <Compile Include="DO\Employeer.cs" />
     <Compile Include="DO\Ma_Loi.cs" />
+    <Compile Include="DO\Product.cs" />
     <Compile Include="DO\ReturrnData.cs" />
     <Compile Include="DO\Struct.cs" />
     <Compile Include="OtherBussiness.cs" />

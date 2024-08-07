@@ -1,6 +1,7 @@
 ﻿using BE072024.DataAcceess_NetFrameWork.Bussiness;
 using BE072024.DataAcceess_NetFrameWork.DO;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
@@ -133,31 +134,124 @@ namespace BE_07.ConsoleApp
 
             var arrstr = myString + "def";
 
-            var employeeBusiness = new EmployeerBussiness();
-            var filePath = @"C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\Template\Employeer_Insert_Template.xlsx";
-            var rs = employeeBusiness.NhapTuExcelFile(filePath);
+            //var employeeBusiness = new EmployeerBussiness();
+            //var filePath = @"C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\Template\Employeer_Insert_Template.xlsx";
+            //var rs = employeeBusiness.NhapTuExcelFile(filePath);
 
-            Console.WriteLine("Kết quả {0}", rs.ReturrnMsg);
+            //Console.WriteLine("Kết quả {0}", rs.ReturrnMsg);
 
-            var list1 = employeeBusiness.DanhSach_NhanVien(0);
-            if(list1!=null && list1.Count > 0)
+            //var list1 = employeeBusiness.DanhSach_NhanVien(0);
+            //if (list1 != null && list1.Count > 0)
+            //{
+            //    Console.Write("List 1 \n");
+            //    foreach (var item in list1)
+            //    {
+            //        Console.Write("{0} \n", item.EmployeerName);
+            //    }
+            //}
+
+            //var list2 = employeeBusiness.DanhSach_NhanVien(5);
+            //if (list2 != null && list2.Count > 0)
+            //{
+            //    Console.Write("List 2 \n");
+            //    foreach (var item in list2)
+            //    {
+            //        Console.Write("{0} \n", item.EmployeerName);
+            //    }
+            //}
+
+            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<int>(10, 20);
+            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<string>("abc", "def");
+            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<long>(120, 100);
+
+            var mygeneric = new BE072024.Common.MyGenericClass<string>();
+            mygeneric.genericField = "string";
+
+
+            var mygenericInt = new BE072024.Common.MyGenericClass<int>();
+            mygenericInt.genericField = 123;
+
+            Dictionary<int, int> keyValuePairs = new Dictionary<int, int>();
+            keyValuePairs.Add(1, 1);
+            keyValuePairs.Add(2, 1247);
+
+            Dictionary<int, Employeer> keyValuePairsObject = new Dictionary<int, Employeer>();
+            keyValuePairsObject.Add(1, new Employeer { });
+
+            foreach (KeyValuePair<int, int> entry in keyValuePairs)
             {
-                Console.Write("List 1 \n");
-                foreach (var item in list1)
-                {
-                    Console.Write("{0} \n", item.EmployeerName);
-                }
+                Console.Write("{0}-{1} \n", entry.Key, entry.Value);
             }
 
-            var list2 = employeeBusiness.DanhSach_NhanVien(5);
-            if (list2 != null && list2.Count > 0)
+            ArrayList arrayList1 = new ArrayList();
+            arrayList1.Add(1);
+            arrayList1.Add("abc");
+            arrayList1.Add(true);
+
+            foreach (var item in arrayList1)
             {
-                Console.Write("List 2 \n");
-                foreach (var item in list2)
-                {
-                    Console.Write("{0} \n", item.EmployeerName);
-                }
+                Console.Write("{0} \n", item);
             }
+
+           
+
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add("1", "abc");
+            hashtable.Add(2, new Employeer { EmployeerId = "NV001", EmployeerName = "test" });
+            hashtable.Add(3, true);
+
+            foreach (DictionaryEntry item in hashtable)
+            {
+                Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
+            }
+
+            foreach (var key in hashtable.Keys)
+            {
+                Console.WriteLine("Key: {0} ", key);
+            }
+
+            SortedList mySL = new SortedList();
+            mySL.Add("Third", "!");
+            mySL.Add("Second", "World");
+            mySL.Add("First", "Hello");
+
+            
+            // Displays the properties and values of the SortedList.
+            Console.WriteLine("mySL");
+            Console.WriteLine(" Count: {0}", mySL.Count);
+            Console.WriteLine(" Capacity: {0}", mySL.Capacity);
+            Console.WriteLine(" Keys and Values:");
+
+            // Console.WriteLine("\t-KEY-\t-VALUE-");
+
+            for (int i = 0; i < mySL.Count; i++)
+            {
+                Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
+            }
+
+            Stack myStack = new Stack();
+            myStack.Push("Hello");
+            myStack.Push("World");
+            myStack.Push("!");
+
+            Console.WriteLine("myStack");
+            Console.WriteLine("\tCount: {0}", myStack.Count);
+            Console.Write("\tValues:");
+
+            foreach (Object obj in myStack)
+            {
+                Console.Write(" {0}", obj);
+            }
+
+            Queue myQ = new Queue();
+            myQ.Enqueue("Hello");
+            myQ.Enqueue("World");
+            myQ.Enqueue("!");
+            Console.WriteLine("myQ");
+            Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
+
+            foreach (Object obj in myQ) Console.Write(" {0}", obj);
+
             Console.ReadKey();
         }
 

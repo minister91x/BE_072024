@@ -33,5 +33,15 @@ namespace BE072024.Common_NetFrameWork.Common
 
             return true;
         }
+
+        public static void Swap<T>(T a, T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+
+        }
+
+
     }
 }
