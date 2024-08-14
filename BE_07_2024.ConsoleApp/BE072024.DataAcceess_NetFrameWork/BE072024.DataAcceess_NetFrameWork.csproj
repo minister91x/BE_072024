@@ -78,8 +78,15 @@
     <Compile Include="Bussiness\IGenericInterface.cs" />
     <Compile Include="Bussiness\EmployeerGenericInterface.cs" />
     <Compile Include="Bussiness\ProductGeneric.cs" />
+    <Compile Include="DO\Animal.cs" />
+    <Compile Include="DO\Bird.cs" />
+    <Compile Include="DO\Cow.cs" />
     <Compile Include="DO\Employeer.cs" />
     <Compile Include="DO\Ma_Loi.cs" />
+    <Compile Include="DO\MyClass.cs" />
+    <Compile Include="DO\MyClass2.cs" />
+    <Compile Include="DO\NhanVien.cs" />
+    <Compile Include="DO\Person.cs" />
     <Compile Include="DO\Product.cs" />
     <Compile Include="DO\ReturrnData.cs" />
     <Compile Include="DO\Struct.cs" />

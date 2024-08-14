@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BE072024.Common
 {
-    public class IProductGenericInterface<eMP> : IGenericInterface<T>
-    {
+    //public class IProductGenericInterface<eMP> : IGenericInterface<T>
+    //{
         
-    }
+    //}
 }

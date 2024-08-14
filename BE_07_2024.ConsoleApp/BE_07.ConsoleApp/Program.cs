@@ -160,98 +160,116 @@ namespace BE_07.ConsoleApp
             //    }
             //}
 
-            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<int>(10, 20);
-            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<string>("abc", "def");
-            BE072024.Common_NetFrameWork.Common.ValidateData.Swap<long>(120, 100);
+            //BE072024.Common_NetFrameWork.Common.ValidateData.Swap<int>(10, 20);
+            //BE072024.Common_NetFrameWork.Common.ValidateData.Swap<string>("abc", "def");
+            //BE072024.Common_NetFrameWork.Common.ValidateData.Swap<long>(120, 100);
 
-            var mygeneric = new BE072024.Common.MyGenericClass<string>();
-            mygeneric.genericField = "string";
+            //var mygeneric = new BE072024.Common.MyGenericClass<string>();
+            //mygeneric.genericField = "string";
 
 
-            var mygenericInt = new BE072024.Common.MyGenericClass<int>();
-            mygenericInt.genericField = 123;
+            //var mygenericInt = new BE072024.Common.MyGenericClass<int>();
+            //mygenericInt.genericField = 123;
 
-            Dictionary<int, int> keyValuePairs = new Dictionary<int, int>();
-            keyValuePairs.Add(1, 1);
-            keyValuePairs.Add(2, 1247);
+            //Dictionary<int, int> keyValuePairs = new Dictionary<int, int>();
+            //keyValuePairs.Add(1, 1);
+            //keyValuePairs.Add(2, 1247);
 
-            Dictionary<int, Employeer> keyValuePairsObject = new Dictionary<int, Employeer>();
-            keyValuePairsObject.Add(1, new Employeer { });
+            //Dictionary<int, Employeer> keyValuePairsObject = new Dictionary<int, Employeer>();
+            //keyValuePairsObject.Add(1, new Employeer { });
 
-            foreach (KeyValuePair<int, int> entry in keyValuePairs)
-            {
-                Console.Write("{0}-{1} \n", entry.Key, entry.Value);
-            }
+            //foreach (KeyValuePair<int, int> entry in keyValuePairs)
+            //{
+            //    Console.Write("{0}-{1} \n", entry.Key, entry.Value);
+            //}
 
-            ArrayList arrayList1 = new ArrayList();
-            arrayList1.Add(1);
-            arrayList1.Add("abc");
-            arrayList1.Add(true);
+            //ArrayList arrayList1 = new ArrayList();
+            //arrayList1.Add(1);
+            //arrayList1.Add("abc");
+            //arrayList1.Add(true);
 
-            foreach (var item in arrayList1)
-            {
-                Console.Write("{0} \n", item);
-            }
+            //foreach (var item in arrayList1)
+            //{
+            //    Console.Write("{0} \n", item);
+            //}
 
-           
 
-            Hashtable hashtable = new Hashtable();
-            hashtable.Add("1", "abc");
-            hashtable.Add(2, new Employeer { EmployeerId = "NV001", EmployeerName = "test" });
-            hashtable.Add(3, true);
 
-            foreach (DictionaryEntry item in hashtable)
-            {
-                Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
-            }
+            //Hashtable hashtable = new Hashtable();
+            //hashtable.Add("1", "abc");
+            //hashtable.Add(2, new Employeer { EmployeerId = "NV001", EmployeerName = "test" });
+            //hashtable.Add(3, true);
 
-            foreach (var key in hashtable.Keys)
-            {
-                Console.WriteLine("Key: {0} ", key);
-            }
+            //foreach (DictionaryEntry item in hashtable)
+            //{
+            //    Console.WriteLine("Key: {0} - Value: {1}", item.Key, item.Value);
+            //}
 
-            SortedList mySL = new SortedList();
-            mySL.Add("Third", "!");
-            mySL.Add("Second", "World");
-            mySL.Add("First", "Hello");
+            //foreach (var key in hashtable.Keys)
+            //{
+            //    Console.WriteLine("Key: {0} ", key);
+            //}
 
-            
-            // Displays the properties and values of the SortedList.
-            Console.WriteLine("mySL");
-            Console.WriteLine(" Count: {0}", mySL.Count);
-            Console.WriteLine(" Capacity: {0}", mySL.Capacity);
-            Console.WriteLine(" Keys and Values:");
+            //SortedList mySL = new SortedList();
+            //mySL.Add("Third", "!");
+            //mySL.Add("Second", "World");
+            //mySL.Add("First", "Hello");
 
-            // Console.WriteLine("\t-KEY-\t-VALUE-");
 
-            for (int i = 0; i < mySL.Count; i++)
-            {
-                Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
-            }
+            //// Displays the properties and values of the SortedList.
+            //Console.WriteLine("mySL");
+            //Console.WriteLine(" Count: {0}", mySL.Count);
+            //Console.WriteLine(" Capacity: {0}", mySL.Capacity);
+            //Console.WriteLine(" Keys and Values:");
 
-            Stack myStack = new Stack();
-            myStack.Push("Hello");
-            myStack.Push("World");
-            myStack.Push("!");
+            //// Console.WriteLine("\t-KEY-\t-VALUE-");
 
-            Console.WriteLine("myStack");
-            Console.WriteLine("\tCount: {0}", myStack.Count);
-            Console.Write("\tValues:");
+            //for (int i = 0; i < mySL.Count; i++)
+            //{
+            //    Console.WriteLine("\t{0}:\t{1}", mySL.GetKey(i), mySL.GetByIndex(i));
+            //}
 
-            foreach (Object obj in myStack)
-            {
-                Console.Write(" {0}", obj);
-            }
+            //Stack myStack = new Stack();
+            //myStack.Push("Hello");
+            //myStack.Push("World");
+            //myStack.Push("!");
 
-            Queue myQ = new Queue();
-            myQ.Enqueue("Hello");
-            myQ.Enqueue("World");
-            myQ.Enqueue("!");
-            Console.WriteLine("myQ");
-            Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
+            //Console.WriteLine("myStack");
+            //Console.WriteLine("\tCount: {0}", myStack.Count);
+            //Console.Write("\tValues:");
 
-            foreach (Object obj in myQ) Console.Write(" {0}", obj);
+            //foreach (Object obj in myStack)
+            //{
+            //    Console.Write(" {0}", obj);
+            //}
 
+            //Queue myQ = new Queue();
+            //myQ.Enqueue("Hello");
+            //myQ.Enqueue("World");
+            //myQ.Enqueue("!");
+            //Console.WriteLine("myQ");
+            //Console.WriteLine("\tCount: {0}", myQ.Count); Console.Write("\tValues:");
+
+            //foreach (Object obj in myQ) Console.Write(" {0}", obj);
+
+
+            //var bird = new BE072024.DataAcceess_NetFrameWork.DO.Bird();
+            //bird.Name = "Chim sẻ";
+            //Console.WriteLine(": {0}", bird.Name);
+            //Console.WriteLine(": {0}", bird.Eeat());
+            //Console.WriteLine(": {0}", bird.Sound());
+
+            //var cow = new BE072024.DataAcceess_NetFrameWork.DO.Cow();
+            //cow.Name = "bò sữa";
+            //Console.WriteLine(": {0}", cow.Name);
+            //Console.WriteLine(": {0}", cow.Eeat());
+            //Console.WriteLine(": {0}", cow.Sound());
+
+            //----------------------Buổi 8
+            var emp = new NhanVien("Mr", "Quân");
+            Console.WriteLine("GetAddress : {0}", emp.GetAddress());
+            Console.WriteLine("Name :  {0}", emp.GetFullName());
+            Console.WriteLine("email :  {0}", emp.Email);
             Console.ReadKey();
         }
 
