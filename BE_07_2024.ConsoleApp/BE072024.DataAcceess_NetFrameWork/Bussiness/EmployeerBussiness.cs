@@ -28,7 +28,7 @@ namespace BE072024.DataAcceess_NetFrameWork.Bussiness
                 }
 
                 var emp = new Employeer();
-                emp.EmployeerId = employeerID_Input;
+                emp.EmployeerId = 1;
 
                 listEmployeer.Add(emp);
             }
@@ -82,7 +82,7 @@ namespace BE072024.DataAcceess_NetFrameWork.Bussiness
 
 
                         var emp = new Employeer();
-                        emp.EmployeerId = maNhanVien;
+                        emp.EmployeerId = 1;
                         emp.EmployeerName = hoTen;
                         emp.DateOfStart = DateTime.ParseExact(ngaySinh.Split(' ')[0], "dd/MM/yyyy", CultureInfo.InvariantCulture);
                         listEmployeer.Add(emp);

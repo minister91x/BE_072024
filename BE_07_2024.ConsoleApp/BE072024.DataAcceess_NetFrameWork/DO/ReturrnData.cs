@@ -10,5 +10,6 @@ namespace BE072024.DataAcceess_NetFrameWork.DO
     {
         public int ReturrnCode { get; set; }
         public string ReturrnMsg { get; set; }
+        public string Extend { get; set; }
     }
 }

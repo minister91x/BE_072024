@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BE072024.DataAcceess_NetFrameWork.DO
 {
-    public struct Employeer
+    public class Employeer
     {
         /// <summary>
         /// Mã nhân viên
         /// </summary>
-        public string EmployeerId { get; set; }
+        public int EmployeerId { get; set; }
         /// <summary>
         /// Tên nhân viên
         /// </summary>

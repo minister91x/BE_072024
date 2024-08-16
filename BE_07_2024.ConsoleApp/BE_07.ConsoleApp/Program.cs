@@ -1,4 +1,5 @@
 ﻿using BE072024.DataAcceess_NetFrameWork.Bussiness;
+using BE072024.DataAcceess_NetFrameWork.DALImpl;
 using BE072024.DataAcceess_NetFrameWork.DO;
 using System;
 using System.Collections;
@@ -270,6 +271,29 @@ namespace BE_07.ConsoleApp
             Console.WriteLine("GetAddress : {0}", emp.GetAddress());
             Console.WriteLine("Name :  {0}", emp.GetFullName());
             Console.WriteLine("email :  {0}", emp.Email);
+
+            var fmyfuction = new Function();
+            fmyfuction.Tong(1, 2);
+            fmyfuction.Tong(1, 2, 3);
+
+            var employerRequestData = new Employeer
+            {
+                // EmployeerName = Console.ReadLine(),
+            };
+
+            var emplDal = new EmployeeDALImpl();
+
+            var result = emplDal.EmployeerInsertUpdate(employerRequestData);
+
+            Console.WriteLine("ReturrnCode :  {0}", result.ReturrnCode);
+            Console.WriteLine("ReturrnMsg :  {0}", result.ReturrnMsg);
+            Console.WriteLine("Extend :  {0}", result.Extend);
+            if (result.ReturrnCode > 0)
+            {
+                ///
+            }
+
+
             Console.ReadKey();
         }
 

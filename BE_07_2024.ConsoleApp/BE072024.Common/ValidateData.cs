@@ -14,6 +14,11 @@ namespace BE072024.Common_NetFrameWork.Common
             return string.IsNullOrEmpty(input) ? false : true;
         }
 
+        public static bool CheckLength(string input)
+        {
+            return input.Length > 500 ? false : true;
+        }
+
         public static bool IsNumberic(string input)
         {
             int n;
@@ -32,6 +37,24 @@ namespace BE072024.Common_NetFrameWork.Common
             }
 
             return true;
+        }
+
+        public static bool CheckXSSInput(string input)
+        {
+            try
+            {
+                var listdangerousString = new List<string> { "<applet", "<body", "<embed", "<frame", "<script", "<frameset", "<html", "<iframe", "<img", "<style", "<layer", "<link", "<ilayer", "<meta", "<object", "<h", "<input", "<a", "&lt", "&gt" };
+                if (string.IsNullOrEmpty(input)) return false;
+                foreach (var dangerous in listdangerousString)
+                {
+                    if (input.Trim().ToLower().IndexOf(dangerous) >= 0) return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
         public static void Swap<T>(T a, T b)

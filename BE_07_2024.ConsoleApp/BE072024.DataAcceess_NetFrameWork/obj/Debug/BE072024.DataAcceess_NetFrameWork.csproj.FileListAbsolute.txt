@@ -23,3 +23,5 @@ C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAccees
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Template\Employeer_Insert_Template.xlsx
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Newtonsoft.Json.xml
