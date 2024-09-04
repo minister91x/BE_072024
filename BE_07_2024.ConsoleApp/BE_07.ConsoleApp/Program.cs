@@ -267,33 +267,60 @@ namespace BE_07.ConsoleApp
             //Console.WriteLine(": {0}", cow.Sound());
 
             //----------------------Buổi 8
-            var emp = new NhanVien("Mr", "Quân");
-            Console.WriteLine("GetAddress : {0}", emp.GetAddress());
-            Console.WriteLine("Name :  {0}", emp.GetFullName());
-            Console.WriteLine("email :  {0}", emp.Email);
+            //var emp = new NhanVien("Mr", "Quân");
+            //Console.WriteLine("GetAddress : {0}", emp.GetAddress());
+            //Console.WriteLine("Name :  {0}", emp.GetFullName());
+            //Console.WriteLine("email :  {0}", emp.Email);
 
-            var fmyfuction = new Function();
-            fmyfuction.Tong(1, 2);
-            fmyfuction.Tong(1, 2, 3);
+            //var fmyfuction = new Function();
+            //fmyfuction.Tong(1, 2);
+            //fmyfuction.Tong(1, 2, 3);
 
-            var employerRequestData = new Employeer
+            //var employerRequestData = new Employeer
+            //{
+            //    // EmployeerName = Console.ReadLine(),
+            //};
+
+            //var emplDal = new EmployeeDALImpl();
+
+            //var result = emplDal.EmployeerInsertUpdate(employerRequestData);
+
+            //Console.WriteLine("ReturrnCode :  {0}", result.ReturrnCode);
+            //Console.WriteLine("ReturrnMsg :  {0}", result.ReturrnMsg);
+            //Console.WriteLine("Extend :  {0}", result.Extend);
+            //if (result.ReturrnCode > 0)
+            //{
+            //    ///
+            //}
+
+            var req = new Account_GetAllRequestData
             {
-                // EmployeerName = Console.ReadLine(),
+                ID = 0
             };
 
-            var emplDal = new EmployeeDALImpl();
-
-            var result = emplDal.EmployeerInsertUpdate(employerRequestData);
-
-            Console.WriteLine("ReturrnCode :  {0}", result.ReturrnCode);
-            Console.WriteLine("ReturrnMsg :  {0}", result.ReturrnMsg);
-            Console.WriteLine("Extend :  {0}", result.Extend);
-            if (result.ReturrnCode > 0)
+            // insert 
+            var reqInsert = new Account_InsertRequestData
             {
-                ///
+                FullName = "HUY",
+                UserName = "quochuy",
+                Password = "123456"
+            };
+            var rs = new AccountDALImpl().Account_Insert(reqInsert);
+
+            Console.WriteLine("Account_Insert ReturrnCode :  {0}", rs.ReturrnCode);
+            Console.WriteLine("Account_Insert ReturrnMsg :  {0}", rs.ReturrnMsg);
+
+            var list_account = new AccountDALImpl().Account_GetList(req);
+
+            if (list_account != null && list_account.Count > 0)
+            {
+                foreach (var item in list_account)
+                {
+                    Console.WriteLine("ID :  {0}", item.ID);
+                    Console.WriteLine("UserName :  {0}", item.UserName);
+                    Console.WriteLine("FullName :  {0}", item.FullName);
+                }
             }
-
-
             Console.ReadKey();
         }
 

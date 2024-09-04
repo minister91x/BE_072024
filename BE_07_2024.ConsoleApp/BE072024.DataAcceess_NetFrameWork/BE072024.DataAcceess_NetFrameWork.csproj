@@ -81,9 +81,12 @@
     <Compile Include="Bussiness\IGenericInterface.cs" />
     <Compile Include="Bussiness\EmployeerGenericInterface.cs" />
     <Compile Include="Bussiness\ProductGeneric.cs" />
+    <Compile Include="DALImpl\AccountDALImpl.cs" />
     <Compile Include="DALImpl\EmployeeDALImpl.cs" />
+    <Compile Include="DAL\IAccountDAL.cs" />
     <Compile Include="DAL\IEmployee2.cs" />
     <Compile Include="DAL\IEmployeeDAL.cs" />
+    <Compile Include="DO\Account.cs" />
     <Compile Include="DO\Animal.cs" />
     <Compile Include="DO\Bird.cs" />
     <Compile Include="DO\Cow.cs" />
