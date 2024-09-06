@@ -25,3 +25,8 @@ C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAccees
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Template\Employeer_Insert_Template.xlsx
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\BE072024.DataAcceess_NetFrameWork.dll.config
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.DataAcceess_NetFrameWork\bin\Debug\EntityFramework.SqlServer.xml

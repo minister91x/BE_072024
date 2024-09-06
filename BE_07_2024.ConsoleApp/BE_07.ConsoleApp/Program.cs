@@ -299,26 +299,35 @@ namespace BE_07.ConsoleApp
             };
 
             // insert 
-            var reqInsert = new Account_InsertRequestData
+            //var reqInsert = new Account_InsertRequestData
+            //{
+            //    FullName = "HUY",
+            //    UserName = "quochuy",
+            //    Password = "123456"
+            //};
+            //var rs = new AccountEF_DALImpl().Account_Insert(reqInsert);
+
+            //Console.WriteLine("Account_Insert ReturrnCode :  {0}", rs.ReturrnCode);
+            //Console.WriteLine("Account_Insert ReturrnMsg :  {0}", rs.ReturrnMsg);
+
+
+            var list_account = new AccountEF_DALImpl().Account_GetList(req);
+
+            var list_linq = from acc in list_account
+                            where acc.UserName.Contains("quoc")
+                            orderby acc.ID descending
+                            select acc;
+
+            var list = list_account.FindAll(s => s.UserName.Contains("quoc")).ToList()
+                .OrderByDescending(s => s.ID);
+
+            if (list_linq != null && list_linq.Count() > 0)
             {
-                FullName = "HUY",
-                UserName = "quochuy",
-                Password = "123456"
-            };
-            var rs = new AccountDALImpl().Account_Insert(reqInsert);
-
-            Console.WriteLine("Account_Insert ReturrnCode :  {0}", rs.ReturrnCode);
-            Console.WriteLine("Account_Insert ReturrnMsg :  {0}", rs.ReturrnMsg);
-
-            var list_account = new AccountDALImpl().Account_GetList(req);
-
-            if (list_account != null && list_account.Count > 0)
-            {
-                foreach (var item in list_account)
+                foreach (var item in list_linq)
                 {
                     Console.WriteLine("ID :  {0}", item.ID);
-                    Console.WriteLine("UserName :  {0}", item.UserName);
                     Console.WriteLine("FullName :  {0}", item.FullName);
+                    Console.WriteLine("UserName :  {0}", item.UserName);
                 }
             }
             Console.ReadKey();
