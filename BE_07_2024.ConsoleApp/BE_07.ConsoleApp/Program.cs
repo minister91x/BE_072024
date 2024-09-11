@@ -1,6 +1,7 @@
 ﻿using BE072024.DataAcceess_NetFrameWork.Bussiness;
 using BE072024.DataAcceess_NetFrameWork.DALImpl;
 using BE072024.DataAcceess_NetFrameWork.DO;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace BE_07.ConsoleApp
         int toancuc = 100; // toàn cục
 
 
-        static void Main(string[] args)
+        static async Task<int> Main(string[] args)
         {
             int myVariable = 10;
             //var myNumber = 112;
@@ -311,27 +312,42 @@ namespace BE_07.ConsoleApp
             //Console.WriteLine("Account_Insert ReturrnMsg :  {0}", rs.ReturrnMsg);
 
 
-            var list_account = new AccountEF_DALImpl().Account_GetList(req);
+            //var list_account = new AccountEF_DALImpl().Account_GetList(req);
 
-            var list_linq = from acc in list_account
-                            where acc.UserName.Contains("quoc")
-                            orderby acc.ID descending
-                            select acc;
+            //var list_linq = from acc in list_account
+            //                where acc.UserName.Contains("quoc")
+            //                orderby acc.ID descending
+            //                select acc;
 
-            var list = list_account.FindAll(s => s.UserName.Contains("quoc")).ToList()
-                .OrderByDescending(s => s.ID);
+            //var list = list_account.FindAll(s => s.UserName.Contains("quoc")).ToList()
+            //    .OrderByDescending(s => s.ID);
 
-            if (list_linq != null && list_linq.Count() > 0)
-            {
-                foreach (var item in list_linq)
-                {
-                    Console.WriteLine("ID :  {0}", item.ID);
-                    Console.WriteLine("FullName :  {0}", item.FullName);
-                    Console.WriteLine("UserName :  {0}", item.UserName);
-                }
-            }
+            //if (list_linq != null && list_linq.Count() > 0)
+            //{
+            //    foreach (var item in list_linq)
+            //    {
+            //        Console.WriteLine("ID :  {0}", item.ID);
+            //        Console.WriteLine("FullName :  {0}", item.FullName);
+            //        Console.WriteLine("UserName :  {0}", item.UserName);
+            //    }
+            //}
+
+            ///
+
+            var lst = new List<Account>();
+            var baseurl = "http://localhost:5055/";
+            var api = "api/demo/GetData";
+
+            var res = BE072024.Common.HttpClientHelper.SendGet(baseurl, api);
+
+           
             Console.ReadKey();
+
+            return 1;
         }
+
+      
+       
 
 
     }
