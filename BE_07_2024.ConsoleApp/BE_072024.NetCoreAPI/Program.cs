@@ -1,3 +1,5 @@
+using BE_072024.NetCoreAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,9 +17,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//app.Run(async context =>
+//{
+//    await context.Response.WriteAsync("Hello world!");
+
+//});
 
 app.UseAuthorization();
 
+app.UseMyCustomMiddleware();
+
 app.MapControllers();
+
 
 app.Run();
