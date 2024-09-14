@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.dll
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.pdb
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.Common.dll
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.Common.pdb
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.CopyComplete
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.dll
+C:\Users\Admin\source\repos\BE_07_2024\CsharpCoBan\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.pdb
