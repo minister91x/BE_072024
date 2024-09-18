@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassA.cs" />
+    <Compile Include="ClassB.cs" />
     <Compile Include="DBConnect\SqlServer\SqlDbHepler.cs" />
     <Compile Include="HttpClientHelper.cs" />
     <Compile Include="IGenericInterface.cs" />

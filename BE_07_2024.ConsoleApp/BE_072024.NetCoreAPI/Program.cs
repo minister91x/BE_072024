@@ -1,4 +1,6 @@
 using BE_072024.NetCoreAPI;
+using DataAccess.NetCore.IServices;
+using DataAccess.NetCore.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddSingleton<IAccountServices, AccountServices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

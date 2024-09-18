@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DataAccess.NetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataAccess.NetCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.NetCore.dll": {}
+        }
       }
     }
   },
@@ -200,10 +210,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "DataAccess.NetCore/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess.NetCore/DataAccess.NetCore.csproj",
+      "msbuildProject": "../DataAccess.NetCore/DataAccess.NetCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DataAccess.NetCore >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +249,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
