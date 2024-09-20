@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Release\net6.0\DataAccess.NetCore.deps.json
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Release\net6.0\DataAccess.NetCore.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Release\net6.0\DataAccess.NetCore.pdb
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\refint\DataAccess.NetCore.dll
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\DataAccess.NetCore.pdb
+C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Release\net6.0\ref\DataAccess.NetCore.dll
