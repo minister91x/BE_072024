@@ -18,7 +18,7 @@ namespace DataAccess.NetCore.DBContext
             base.OnModelCreating(builder);
         }
         public DbSet<BE072024_HB_Rooms>? bE072024_HB_Rooms { get; set; }
-       // public DbSet<BE072024_HB_RoomDetails>? bE072024_HB_RoomDetail { get; set; }
+       public DbSet<BE072024_HB_Hotels>? bE072024_HB_Hotels { get; set; }
 
     }
 }

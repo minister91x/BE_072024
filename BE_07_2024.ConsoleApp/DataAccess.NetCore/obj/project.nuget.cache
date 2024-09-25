@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bC9i/SHI44zOZpIrNQsashvUABd6ive0zkoiVwhDhbB+EZ/DKu2+ssWhOuFA9ut+DmBruJDPDHgJw3Chhvmm8A==",
+  "dgSpecHash": "BEjPLC6m5eI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.33\\microsoft.entityframeworkcore.6.0.33.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.33\\microsoft.entityframeworkcore.abstractions.6.0.33.nupkg.sha512",

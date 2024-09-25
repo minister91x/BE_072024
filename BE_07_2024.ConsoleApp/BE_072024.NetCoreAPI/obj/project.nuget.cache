@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3WzCvBW4A/3sbrUha/1SWUOtSIQnR+NG/V5f5JuMeJPMwCDh0XKbKHv/KRzZEyO9t0iyeLeszr44ZzCQ4K25oQ==",
+  "dgSpecHash": "OeO1XCJqz4Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

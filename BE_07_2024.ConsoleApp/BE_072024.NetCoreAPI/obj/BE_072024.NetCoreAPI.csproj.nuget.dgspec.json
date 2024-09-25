@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
         "projectName": "BE_072024.NetCoreAPI",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj"
+              "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj"
               }
             }
           }
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,7 +75,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,18 +88,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
         "projectName": "DataAccess.NetCore",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_07_2024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,6 +110,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,6 +123,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,7 +145,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -141,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

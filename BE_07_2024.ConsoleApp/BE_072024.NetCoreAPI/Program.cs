@@ -2,6 +2,7 @@ using BE_072024.NetCoreAPI;
 using DataAccess.NetCore.DBContext;
 using DataAccess.NetCore.IServices;
 using DataAccess.NetCore.Services;
+using DataAccess.NetCore.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IAccountServices, AccountServices>();
-builder.Services.AddScoped<IRoomServices, RoomServices>();
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IRoomGenericRepository, RoomGenericRepository>();
+builder.Services.AddScoped<IHotelGenericRepository, HotelGenericRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

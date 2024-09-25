@@ -499,7 +499,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.33"
         },
         "runtime": {
-          "DataAccess.NetCore.dll": {}
+          "DataAccess.NetCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
