@@ -59,7 +59,6 @@ namespace BE_072024.NetCoreAPI.Controllers
                     Exprired = refeshtokenExpired,
                     RefeshToken = refeshtoken,
                     UserId = user.UserID,
-
                 };
                 var rs = await _accountServices.Account_UpdateRefeshToken(req);
 
