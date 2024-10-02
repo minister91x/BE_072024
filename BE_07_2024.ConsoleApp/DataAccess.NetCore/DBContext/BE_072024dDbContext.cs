@@ -20,5 +20,7 @@ namespace DataAccess.NetCore.DBContext
         public DbSet<BE072024_HB_Rooms>? bE072024_HB_Rooms { get; set; }
        public DbSet<BE072024_HB_Hotels>? bE072024_HB_Hotels { get; set; }
 
+        public DbSet<User>  user {  get; set; }
+
     }
 }

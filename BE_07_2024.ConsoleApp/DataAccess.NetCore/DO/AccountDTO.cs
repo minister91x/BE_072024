@@ -22,4 +22,10 @@ namespace DataAccess.NetCore.DO
         public string Password { get; set; }
     }
 
+    public class Account_UpdateRefeshTokenRequestData
+    {
+        public int UserId { get; set; }
+        public string RefeshToken { get; set; }
+        public DateTime Exprired { get; set; }
+    }
 }

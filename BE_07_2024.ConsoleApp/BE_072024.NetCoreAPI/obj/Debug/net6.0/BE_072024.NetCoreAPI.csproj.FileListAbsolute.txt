@@ -134,3 +134,5 @@ C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\obj\Debug\net6.0\BE_072024.NetCoreAPI.pdb
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\obj\Debug\net6.0\BE_072024.NetCoreAPI.genruntimeconfig.cache
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\obj\Debug\net6.0\ref\BE_072024.NetCoreAPI.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

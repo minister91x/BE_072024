@@ -8,7 +8,13 @@ namespace DataAccess.NetCore.DO
 {
     public class ReturnData
     {
-        public int ReturnCode { get; set; } 
+        public int ReturnCode { get; set; }
         public string ReturnMessage { get; set; }
+    }
+
+    public class LoginResponseData : ReturnData
+    {
+        public User user { get; set; }
+        public string token {  get; set; }
     }
 }
