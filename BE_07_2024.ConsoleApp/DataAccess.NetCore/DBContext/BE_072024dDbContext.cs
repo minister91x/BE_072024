@@ -21,6 +21,7 @@ namespace DataAccess.NetCore.DBContext
        public DbSet<BE072024_HB_Hotels>? bE072024_HB_Hotels { get; set; }
 
         public DbSet<User>  user {  get; set; }
-
+        public DbSet<Function> function { get; set; }
+        public DbSet<UserPermission> userPermission { get; set; }
     }
 }

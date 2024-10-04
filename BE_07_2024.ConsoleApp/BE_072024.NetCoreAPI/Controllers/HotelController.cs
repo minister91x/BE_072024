@@ -1,6 +1,8 @@
-﻿using DataAccess.NetCore.DO;
+﻿using BE_072024.NetCoreAPI.Filter;
+using DataAccess.NetCore.DO;
 using DataAccess.NetCore.IServices;
 using DataAccess.NetCore.UnitOfWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +14,7 @@ namespace BE_072024.NetCoreAPI.Controllers
     {
         private IRoomRepository _roomServices;
         private IRoomGenericRepository _roomGenericRepository;
-       private IUnitOfWork _unitOfWork;
+        private IUnitOfWork _unitOfWork;
         public HotelController(IRoomRepository roomService,
             IRoomGenericRepository roomGenericRepository, IUnitOfWork unitOfWork)
         {
@@ -22,6 +24,7 @@ namespace BE_072024.NetCoreAPI.Controllers
         }
 
         [HttpPost("Room_GetAll")]
+        [BE_072024Authorize("Room_GetAll","VIEW")]
         public async Task<ActionResult> Room_GetAll(HB_RoomGetAllRequestData requestData)
         {
             var list = new List<BE072024_HB_Rooms>();
@@ -49,7 +52,7 @@ namespace BE_072024.NetCoreAPI.Controllers
                 {
                     CreatedDate = DateTime.Now,
                     HotelName = "HOTEL_TEST",
-                    Description="abc",
+                    Description = "abc",
                 };
 
                 var room_request = new BE072024_HB_Rooms
@@ -57,14 +60,14 @@ namespace BE_072024.NetCoreAPI.Controllers
                     HotelID = requestData.HotelID,
                     IsActive = requestData.IsActive,
                     RoomNumber = requestData.RoomNumber,
-                    RoomSquare= requestData.RoomSquare,
+                    RoomSquare = requestData.RoomSquare,
                 };
 
                 await _unitOfWork._hotelGenericRepository.Insert(request_hotel);
 
                 await _unitOfWork._roomGenericRepository.Insert(room_request);
 
-                var rs =  _unitOfWork.SaveChange();
+                var rs = _unitOfWork.SaveChange();
 
 
                 return Ok(rs);

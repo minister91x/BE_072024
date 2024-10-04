@@ -87,5 +87,16 @@ namespace DataAccess.NetCore.Services
                 throw;
             }
         }
+
+        public async Task<Function> GetFunctionByCode(string code)
+        {
+            return _context.function.ToList().Where(s => s.FunctionCode == code).FirstOrDefault();
+        }
+
+        public async Task<UserPermission> GetPermissionByUserID(int UserId, int functionID)
+        {
+            return _context.userPermission.ToList()
+                .Where(s => s.UserID == UserId && s.FunctionID == functionID).FirstOrDefault();
+        }
     }
 }
