@@ -98,5 +98,23 @@ namespace DataAccess.NetCore.Services
             return _context.userPermission.ToList()
                 .Where(s => s.UserID == UserId && s.FunctionID == functionID).FirstOrDefault();
         }
+
+        public async Task<int> User_Sessions_Insert(User_Sessions sessions)
+        {
+            _context.user_Sessions.Add(sessions);
+            return _context.SaveChanges();
+        }
+
+        public async Task<int> Account_LogOut(string token)
+        {
+            var ss = _context.user_Sessions.Where(s => s.Token == token).FirstOrDefault();
+            if (ss == null || ss.SessionID <= 0)
+            {
+                return -1;
+            }
+
+            _context.user_Sessions.Remove(ss);
+            return _context.SaveChanges();
+        }
     }
 }

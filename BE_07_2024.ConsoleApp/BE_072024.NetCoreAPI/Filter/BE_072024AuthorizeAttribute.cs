@@ -52,6 +52,7 @@ namespace BE_072024.NetCoreAPI.Filter
                     return;
 
                 }
+                /// kiểm tra xem trong bảng user_session này có
 
                 // Check quyền 
                 var function = await _accountServices.GetFunctionByCode(_functionCode);

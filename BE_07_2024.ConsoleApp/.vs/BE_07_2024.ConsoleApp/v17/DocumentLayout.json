@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\filter\\be_072024authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\filter\\be_072024authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +23,36 @@
       "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\dbcontext\\be_072024ddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\user_sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\user_sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\filter\\be_072024authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\filter\\be_072024authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\dataaccess.netcore\\do\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E316A391-7DC0-4A1A-98CE-A0F3DE5327FA}|DataAccess.NetCore\\DataAccess.NetCore.csproj|solutionrelative:dataaccess.netcore\\do\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +78,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess.NetCore\\DO\\AccountDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\AccountDTO.cs",
+              "RelativeToolTip": "DataAccess.NetCore\\DO\\AccountDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:56:08.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User_Sessions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\User_Sessions.cs",
+              "RelativeDocumentMoniker": "DataAccess.NetCore\\DO\\User_Sessions.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\User_Sessions.cs",
+              "RelativeToolTip": "DataAccess.NetCore\\DO\\User_Sessions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:47:23.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Program.cs",
+              "RelativeToolTip": "BE_072024.NetCoreAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:48:36.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\appsettings.json",
+              "RelativeToolTip": "BE_072024.NetCoreAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T13:46:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AccountServices.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Services\\AccountServices.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Services\\AccountServices.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Services\\AccountServices.cs",
               "RelativeToolTip": "DataAccess.NetCore\\Services\\AccountServices.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwFgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T15:01:43.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IAccountServices.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\IServices\\IAccountServices.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\IServices\\IAccountServices.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\IServices\\IAccountServices.cs",
               "RelativeToolTip": "DataAccess.NetCore\\IServices\\IAccountServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T15:00:12.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\User.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\DO\\User.cs",
@@ -101,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "UserPermission.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\UserPermission.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\DO\\UserPermission.cs",
@@ -114,20 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "BE_072024dDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DBContext\\BE_072024dDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\DBContext\\BE_072024dDbContext.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DBContext\\BE_072024dDbContext.cs",
               "RelativeToolTip": "DataAccess.NetCore\\DBContext\\BE_072024dDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T14:58:15.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Function.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DO\\Function.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\DO\\Function.cs",
@@ -140,13 +208,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "BE_072024.NetCoreAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowC0AAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "BE_072024.NetCoreAPI\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T14:14:55.96Z",
               "EditorCaption": ""
@@ -159,14 +227,14 @@
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\HotelController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\HotelController.cs",
               "RelativeToolTip": "BE_072024.NetCoreAPI\\Controllers\\HotelController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T14:05:16.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DemoController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
@@ -179,13 +247,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "BE_072024AuthorizeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Filter\\BE_072024AuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Filter\\BE_072024AuthorizeAttribute.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Filter\\BE_072024AuthorizeAttribute.cs",
               "RelativeToolTip": "BE_072024.NetCoreAPI\\Filter\\BE_072024AuthorizeAttribute.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA6wCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T14:03:02.738Z",
               "EditorCaption": ""

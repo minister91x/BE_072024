@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BE_072024.NetCoreAPI.Controllers.AccountController",
+    "Method": "LogOut",
+    "RelativePath": "api/Account/LogOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.NetCore.DO.AccountLogOutRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BE_072024.NetCoreAPI.Controllers.DemoController",
     "Method": "GetData",
     "RelativePath": "api/Demo/GetData",

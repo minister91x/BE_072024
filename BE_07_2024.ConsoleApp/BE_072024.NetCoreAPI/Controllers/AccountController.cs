@@ -61,11 +61,23 @@ namespace BE_072024.NetCoreAPI.Controllers
                     UserId = user.UserID,
                 };
                 var rs = await _accountServices.Account_UpdateRefeshToken(req);
+                var token = new JwtSecurityTokenHandler().WriteToken(newtoken);
+                // sẽ lưu token , IP , vị trí , thiết bị vào RedisCaching 
+                var remoteIpAddress = Request.HttpContext.Connection.RemoteIpAddress;
+
+                var req_ss = new User_Sessions
+                {
+                    Token = token,
+                    CreatedTime = DateTime.Now,
+                    DeviceID = "ABXXZZ",
+                    UserID= user.UserID,
+                };
+                await _accountServices.User_Sessions_Insert(req_ss);
 
                 // Bước 3: trả về token
                 returnData.ReturnCode = result.ReturnCode;
                 returnData.ReturnMessage = result.ReturnMessage;
-                returnData.token = new JwtSecurityTokenHandler().WriteToken(newtoken);
+                returnData.token = token;
 
                 return Ok(returnData);
             }
@@ -76,6 +88,22 @@ namespace BE_072024.NetCoreAPI.Controllers
             }
         }
 
+        [HttpPost("LogOut")]
+
+        public async Task<ActionResult> LogOut(AccountLogOutRequestData requestData)
+        {
+            try
+            {
+                var rs = await _accountServices.Account_LogOut(requestData.Token);
+
+                return Ok(rs);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
         private static string GenerateRefreshToken()
         {
             var randomNumber = new byte[64];

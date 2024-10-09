@@ -22,6 +22,12 @@ namespace DataAccess.NetCore.DO
         public string Password { get; set; }
     }
 
+    public class AccountLogOutRequestData
+    {
+        public string Token { get; set; }
+
+    }
+
     public class Account_UpdateRefeshTokenRequestData
     {
         public int UserId { get; set; }

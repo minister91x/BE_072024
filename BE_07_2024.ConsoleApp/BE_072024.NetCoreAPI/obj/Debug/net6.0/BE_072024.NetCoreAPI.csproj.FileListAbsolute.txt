@@ -136,3 +136,12 @@ C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\obj\Debug\net6.0\ref\BE_072024.NetCoreAPI.dll
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.NetCoreAPI\bin\Debug\net6.0\StackExchange.Redis.dll

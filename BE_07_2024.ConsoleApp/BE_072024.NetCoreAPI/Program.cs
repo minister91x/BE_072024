@@ -13,6 +13,7 @@ var configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddDbContext<BE_072024dDbContext>(options =>
                options.UseSqlServer(configuration.GetConnectionString("ConnStr_BE072024")));
+builder.Services.AddStackExchangeRedisCache(options => { options.Configuration = configuration["RedisCacheUrl"]; });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

@@ -14,5 +14,9 @@ namespace DataAccess.NetCore.IServices
 
         Task<Function> GetFunctionByCode(string code);
         Task<UserPermission> GetPermissionByUserID(int UserId, int functionID);
+
+        Task<int> User_Sessions_Insert(User_Sessions sessions);
+
+        Task<int> Account_LogOut(string token);
     }
 }

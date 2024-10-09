@@ -23,5 +23,6 @@ namespace DataAccess.NetCore.DBContext
         public DbSet<User>  user {  get; set; }
         public DbSet<Function> function { get; set; }
         public DbSet<UserPermission> userPermission { get; set; }
+        public DbSet<User_Sessions> user_Sessions { get; set; }
     }
 }
