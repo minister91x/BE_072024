@@ -59,8 +59,40 @@
   },
   {
     "ContainingType": "BE_072024.NetCoreAPI.Controllers.HotelController",
+    "Method": "Room_GetAll_Dapper",
+    "RelativePath": "api/Hotel/Room_GetAll_Dapper",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.NetCore.DO.HB_RoomGetAllRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_072024.NetCoreAPI.Controllers.HotelController",
     "Method": "Room_Insert",
     "RelativePath": "api/Hotel/Room_Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "DataAccess.NetCore.DO.Room_InsertRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_072024.NetCoreAPI.Controllers.HotelController",
+    "Method": "Room_Insert_Dapper",
+    "RelativePath": "api/Hotel/Room_Insert_Dapper",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

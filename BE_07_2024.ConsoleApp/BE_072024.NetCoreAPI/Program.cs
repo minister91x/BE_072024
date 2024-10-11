@@ -1,10 +1,12 @@
 using BE_072024.NetCoreAPI;
+using BE_072024.NetCoreAPI.Dapper;
 using DataAccess.NetCore.DBContext;
 using DataAccess.NetCore.IServices;
 using DataAccess.NetCore.Services;
 using DataAccess.NetCore.UnitOfWork;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -39,7 +41,9 @@ builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<IRoomGenericRepository, RoomGenericRepository>();
 builder.Services.AddScoped<IHotelGenericRepository, HotelGenericRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+builder.Services.AddTransient<IApplicationDbConnection, ApplicationDbConnection>();
+builder.Services.AddTransient<IRoomRepositoryDapper, RoomRepositoryDapper>();
+builder.Services.AddDirectoryBrowser();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -61,5 +65,23 @@ app.UseMyCustomMiddleware();
 
 app.MapControllers();
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx => {
+        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "*");
+        ctx.Context.Response.Headers.Append("Access-Control-Allow-Headers",
+          "Origin, X-Requested-With, Content-Type, Accept");
+    },
+    FileProvider = new PhysicalFileProvider(
+           Path.Combine(builder.Environment.ContentRootPath, "Files")),
+    RequestPath = "/Files"
+});
+var fileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Files"));
+var requestPath = "/Files";
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = fileProvider,
+    RequestPath = requestPath
+});
 
 app.Run();
