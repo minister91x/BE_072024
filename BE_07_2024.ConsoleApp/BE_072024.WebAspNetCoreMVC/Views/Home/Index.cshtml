@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<BE_072024.WebAspNetCoreMVC.Models.Employeer>
+@Html.ActionLink("Bấm vào đây","Privacy","Home")
+<div class="row">
+    
+    <form action="Index" method="post">
+        <div class="form-group">
+            <label for="email">FirstName:</label>
+            <input type="text" class="form-control" name="Firstname" id="Firstname">
+        </div>
+        <div class="form-group">
+            <label for="pwd">LastName:</label>
+            <input type="text" class="form-control" name="LastName" id="LastName">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="text" class="form-control" name="Email" id="Email">
+        </div>
+        <button type="submit" class="btn btn-success"><i class="fa fa-save"></i>Lưu</button>
+    </form>
+</div>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Xin chào các bạn đến với lớp BE 072024</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Firstname</td>
+                        <td>@item.LastName</td>
+                        <td>@item.Email</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">Không tồn tại dữ liệu</td>
+                    
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

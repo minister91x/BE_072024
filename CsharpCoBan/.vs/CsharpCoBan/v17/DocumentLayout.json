@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C75D186-7697-48C7-B4FD-05298356D899}|CSharpCoBan.Common\\CSharpCoBan.Common.csproj|c:\\users\\admin\\source\\repos\\be_072024\\csharpcoban\\csharpcoban.common\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C75D186-7697-48C7-B4FD-05298356D899}|CSharpCoBan.Common\\CSharpCoBan.Common.csproj|solutionrelative:csharpcoban.common\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A217BE9-A085-454C-B8FB-9AE7C4255F8A}|ConsoleAppDemo\\ConsoleAppDemo.csproj|C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A217BE9-A085-454C-B8FB-9AE7C4255F8A}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D060F7-72C4-44B5-8F6A-F8EF7CA9AECA}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\csharpcoban.dataaccess\\baitapbuoi1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D060F7-72C4-44B5-8F6A-F8EF7CA9AECA}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\baitapbuoi1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaiTapBuoi1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\CSharpCoBan.DataAccess\\BaiTapBuoi1.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\BaiTapBuoi1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\CSharpCoBan.DataAccess\\BaiTapBuoi1.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\BaiTapBuoi1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAlwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:53:46.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\CSharpCoBan.Common\\Validation.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.Common\\Validation.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\CSharpCoBan.Common\\Validation.cs",
+              "RelativeToolTip": "CSharpCoBan.Common\\Validation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:53:48.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\ConsoleAppDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\CsharpCoBan\\ConsoleAppDemo\\Program.cs",
+              "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:53:49.477Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
