@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KwJu9zEc52I=",
+  "dgSpecHash": "IpvV65J8alk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+  "projectFilePath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

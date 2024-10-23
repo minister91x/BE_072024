@@ -43,7 +43,7 @@ namespace BE_072024.WebAspNetCoreMVC.Controllers
         public ActionResult Index(Employeer employeer)
         {
             var a = 10;
-            return View();
+            return Json(employeer);
         }
         public IActionResult Privacy()
         {
