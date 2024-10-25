@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}|BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcore.common\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}|BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj|solutionrelative:be_072024.netcore.common\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}|BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcore.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}|BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj|solutionrelative:be_072024.netcore.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\models\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\models\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\home\\_listemployeerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\home\\_listemployeerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|solutionrelative:be_072024.netcoreapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\models\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\models\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.webaspnetcoremvc\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F01337B-F671-4C4C-B31D-BF3232AEA02F}|BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj|solutionrelative:be_072024.webaspnetcoremvc\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}|BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj|d:\\sourcecode\\repos\\be_072024\\be_07_2024.consoleapp\\be_072024.netcoreapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,33 +142,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T13:24:14.605Z",
+              "DocumentIndex": 1,
+              "Title": "HttpClientHelper.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\HttpClientHelper.cs",
+              "RelativeDocumentMoniker": "BE_072024.Netcore.Common\\HttpClientHelper.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\HttpClientHelper.cs",
+              "RelativeToolTip": "BE_072024.Netcore.Common\\HttpClientHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:43:12.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
-              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
-              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "BE_072024.Netcore.Common\\Class1.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\Class1.cs",
+              "RelativeToolTip": "BE_072024.Netcore.Common\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T13:22:44.416Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:42:51.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T14:02:56.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:01:10.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T13:56:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T13:24:00.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HotelsController.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\HotelsController.cs",
               "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Controllers\\HotelsController.cs",
@@ -149,20 +233,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DemoController.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
-              "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
-              "RelativeToolTip": "BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T13:14:23.965Z",
+              "WhenOpened": "2024-10-18T13:23:11.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T14:04:11.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModels.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Models\\LoginModels.cs",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Models\\LoginModels.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Models\\LoginModels.cs",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Models\\LoginModels.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:23:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Employeer.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Models\\Employeer.cs",
               "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Models\\Employeer.cs",
@@ -170,51 +280,72 @@
               "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Models\\Employeer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:32:37.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T13:32:37.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T13:24:00.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowC0AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "BE_072024.NetCoreAPI\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:23:11.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T13:14:23.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Program.cs",
               "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Program.cs",
               "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Program.cs",
               "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T13:23:01.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T13:24:14.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ListEmployeerPartial.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\_ListEmployeerPartial.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\_ListEmployeerPartial.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Home\\_ListEmployeerPartial.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Home\\_ListEmployeerPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T13:21:24.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
+              "RelativeDocumentMoniker": "BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
+              "ToolTip": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
+              "RelativeToolTip": "BE_072024.WebAspNetCoreMVC\\Views\\Hotels\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T13:22:44.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "HotelController.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Controllers\\HotelController.cs",
@@ -226,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "AccountServices.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Services\\AccountServices.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Services\\AccountServices.cs",
@@ -238,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "RoomRepositoryDapper.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Services\\RoomRepositoryDapper.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Services\\RoomRepositoryDapper.cs",
@@ -250,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "IRoomRepositoryDapper.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\IServices\\IRoomRepositoryDapper.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\IServices\\IRoomRepositoryDapper.cs",
@@ -262,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "IRoomRepository.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\IServices\\IRoomRepository.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\IServices\\IRoomRepository.cs",
@@ -274,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IAccountServices.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\IServices\\IAccountServices.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\IServices\\IAccountServices.cs",
@@ -286,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "IApplicationDbConnection.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Dapper\\IApplicationDbConnection.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Dapper\\IApplicationDbConnection.cs",
@@ -298,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbConnection.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Dapper\\ApplicationDbConnection.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Dapper\\ApplicationDbConnection.cs",
@@ -310,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "BaseApplicationService.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\Dapper\\BaseApplicationService.cs",
               "RelativeDocumentMoniker": "DataAccess.NetCore\\Dapper\\BaseApplicationService.cs",
@@ -322,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\appsettings.json",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\appsettings.json",
@@ -334,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "AccountDALImpl.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE072024.DataAcceess_NetFrameWork\\DALImpl\\AccountDALImpl.cs",
               "RelativeDocumentMoniker": "BE072024.DataAcceess_NetFrameWork\\DALImpl\\AccountDALImpl.cs",
@@ -346,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "EmployeeDALImpl.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE072024.DataAcceess_NetFrameWork\\DALImpl\\EmployeeDALImpl.cs",
               "RelativeDocumentMoniker": "BE072024.DataAcceess_NetFrameWork\\DALImpl\\EmployeeDALImpl.cs",
@@ -358,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\WeatherForecast.cs",
@@ -370,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\Program.cs",
               "RelativeDocumentMoniker": "BE_072024.NetCoreAPI\\Program.cs",

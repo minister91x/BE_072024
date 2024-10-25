@@ -23,3 +23,16 @@ C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\o
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\refint\DataAccess.NetCore.dll
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.pdb
 C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\ref\DataAccess.NetCore.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Debug\net6.0\DataAccess.NetCore.deps.json
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Debug\net6.0\DataAccess.NetCore.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\bin\Debug\net6.0\DataAccess.NetCore.pdb
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.csproj.AssemblyReference.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.AssemblyInfoInputs.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.AssemblyInfo.cs
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.sourcelink.json
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\refint\DataAccess.NetCore.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\DataAccess.NetCore.pdb
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\DataAccess.NetCore\obj\Debug\net6.0\ref\DataAccess.NetCore.dll

@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.NetCore", "DataA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_072024.NetCoreAPI", "BE_072024.NetCoreAPI\BE_072024.NetCoreAPI.csproj", "{B1905474-E7FB-4B71-8FA0-CA676FDB9A28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_072024.WebAspNetCoreMVC", "BE_072024.WebAspNetCoreMVC\BE_072024.WebAspNetCoreMVC.csproj", "{7F01337B-F671-4C4C-B31D-BF3232AEA02F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_072024.WebAspNetCoreMVC", "BE_072024.WebAspNetCoreMVC\BE_072024.WebAspNetCoreMVC.csproj", "{7F01337B-F671-4C4C-B31D-BF3232AEA02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_072024.Netcore.Common", "BE_072024.Netcore.Common\BE_072024.Netcore.Common.csproj", "{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7F01337B-F671-4C4C-B31D-BF3232AEA02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F01337B-F671-4C4C-B31D-BF3232AEA02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F01337B-F671-4C4C-B31D-BF3232AEA02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5950CB6-BE84-496A-9DFD-1BE2290AA7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

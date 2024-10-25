@@ -1,0 +1,32 @@
+﻿@model List<BE_072024.WebAspNetCoreMVC.Models.Employeer>
+<p>ĐÂY LÀ PARTIAL VIEW 11111</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Firstname</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">Không tồn tại dữ liệu</td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>

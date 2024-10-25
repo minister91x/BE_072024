@@ -47,3 +47,52 @@ button.accept-policy[b-zohmxya62d] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/BE_072024.WebAspNetCoreMVC/Views/Shared/_LayoutLogin.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-rhf2ajnose] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-rhf2ajnose] {
+  color: #0077cc;
+}
+
+.btn-primary[b-rhf2ajnose] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-rhf2ajnose], .nav-pills .show > .nav-link[b-rhf2ajnose] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-rhf2ajnose] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-rhf2ajnose] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-rhf2ajnose] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-rhf2ajnose] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-rhf2ajnose] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

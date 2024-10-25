@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Home/_ListEmployeerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGlzdEVtcGxveWVlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Hotels/Index.cshtml]
@@ -49,3 +57,7 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zohmxya62d
+
+[D:/SourceCode/repos/BE_072024/BE_07_2024.ConsoleApp/BE_072024.WebAspNetCoreMVC/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-rhf2ajnose
