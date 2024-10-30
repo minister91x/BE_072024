@@ -1,5 +1,6 @@
 ﻿using BE_072024.WebAspNetCoreMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace BE_072024.WebAspNetCoreMVC.Controllers
 {
@@ -9,31 +10,43 @@ namespace BE_072024.WebAspNetCoreMVC.Controllers
         // từ thư mục giống tên của controlleer -> file trùng với tên của action result
         //Views/Hotels/Index.cshtml 
 
-       
-        public IActionResult Index()
-        {
-            // return View();
-            //return View("~/Views/Home/Privacy.cshtml");
 
-            var model = new List<Employeer>();
+        private IConfiguration _configuration;
+
+        public HotelsController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+
+
+            var model = new List<BE072024_HB_Rooms>();// View Model
             try
             {
-                for (int i = 0; i < 5; i++)
+                var API_BASE_URL = _configuration["Setting:API_BASE_URL"] ?? "";
+                var URL = _configuration["Setting:URL"] ?? "";
+
+                var requestData = new HB_RoomGetAllRequestData { RoomNumber = "" };
+                var jsonData = JsonConvert.SerializeObject(requestData);
+
+                var json_result = await BE_072024.Netcore.Common.HttpClientHelper.HttpSenPost(API_BASE_URL, URL, jsonData);
+
+                if (!string.IsNullOrEmpty(json_result))
                 {
-                    model.Add(new Employeer
-                    {
-                        Firstname = i % 2 == 0 ? "MR" : "Ms",
-                        LastName = i.ToString(),
-                        Email = i + "@gmail.com"
-                    });
+                    // convert json_result -> list Object
+                    model = JsonConvert.DeserializeObject<List<BE072024_HB_Rooms>>(json_result);
                 }
+
+
             }
             catch (Exception ex)
             {
 
                 throw;
             }
-            return Json(model); 
+            return View(model);
         }
 
         [HttpPut]

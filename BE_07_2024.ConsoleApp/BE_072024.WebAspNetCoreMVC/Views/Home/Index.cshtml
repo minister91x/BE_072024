@@ -22,38 +22,45 @@
 }
 
 
-@model List<BE_072024.WebAspNetCoreMVC.Models.Employeer>
-@Html.ActionLink("Bấm vào đây", "Privacy", "Home")
+@model BE_072024.WebAspNetCoreMVC.Models.Employeer
+@* @Html.ActionLink("Bấm vào đây", "Privacy", "Home") *@
+
 <div class="row">
 
-    <form action="Index" method="post">
+    <form action="/Home/Index" method="post">
+
+        <div asp-validation-summary="None"></div>
+
         <div class="form-group">
             <label for="email">FirstName:</label>
             <input type="text" class="form-control" name="Firstname" id="Firstname">
+            <span asp-validation-for="Firstname" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label for="pwd">LastName:</label>
             <input type="text" class="form-control" name="LastName" id="LastName">
+            <span asp-validation-for="LastName" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label for="pwd">Email:</label>
             <input type="text" class="form-control" name="Email" id="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
         </div>
-        <button type="button" id="btnSave" class="btn btn-success"><i class="fa fa-save"></i>Lưu</button>
+        <button type="submit" id="btnSave" class="btn btn-success"><i class="fa fa-save"></i>Lưu</button>
     </form>
 </div>
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-  @*   @Html.Partial("~/Views/Home/_ListEmployeerPartial.cshtml", model); *@
+    @*   @Html.Partial("~/Views/Home/_ListEmployeerPartial.cshtml", model); *@
     <div id="ListEmployeerPartial"></div>
 </div>
 @section Scripts {
     <script>
         $(document).ready(function () {
             LoadPartialView();
-            $("#btnSave").click(function () {
-                SaveData();
-            });
+            // $("#btnSave").click(function () {
+            //     SaveData();
+            // });
         });
 
         function SaveData() {
@@ -80,9 +87,18 @@
             });
         }
 
-        function LoadPartialView(){
+        function LoadPartialView() {
+            var data = {
+                __RequestVerificationToken: $("input[name=AntiforgeryFieldname]").val()
+            }
+
+            console.log("JSON:" + JSON.stringify(data));
             $.ajax({
-                type: 'GET',
+                type: 'POST',
+                headers: {
+                    RequestVerificationToken:
+                        $('input:hidden[name="AntiforgeryFieldname"]').val()
+                },
                 url: "/Home/_ListEmployeerPartial",
                 data: {},
                 async: true,

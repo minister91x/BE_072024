@@ -17,18 +17,25 @@ namespace BE_072024.WebAspNetCoreMVC.Controllers
         {
             // mở thư mục views tìm thư mục home(Tương ứng với HomeController )
             // //-> tìm file index.cshtml
-            
+
             // trả dữ liệu nằm trong model về view 
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(Employeer employeer)
+        public ActionResult Index(Employeer employeer) // EDIT MODEL 
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
             var a = 10;
             return Json(employeer);
         }
 
+        [HttpPost("_ListEmployeerPartial")]
+  
         public ActionResult _ListEmployeerPartial()
         {
             var model = new List<Employeer>();
@@ -51,7 +58,7 @@ namespace BE_072024.WebAspNetCoreMVC.Controllers
             }
 
             return PartialView(model);
-        } 
+        }
 
 
         public IActionResult Privacy()

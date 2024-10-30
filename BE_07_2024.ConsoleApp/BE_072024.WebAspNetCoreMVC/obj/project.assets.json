@@ -2958,6 +2958,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BE_072024.Netcore.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BE_072024.Netcore.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BE_072024.Netcore.Common.dll": {}
+        }
       }
     }
   },
@@ -8605,10 +8615,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BE_072024.Netcore.Common/1.0.0": {
+      "type": "project",
+      "path": "../BE_072024.Netcore.Common/BE_072024.Netcore.Common.csproj",
+      "msbuildProject": "../BE_072024.Netcore.Common/BE_072024.Netcore.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BE_072024.Netcore.Common >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18"
     ]
   },
@@ -8639,7 +8655,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj": {
+              "projectPath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.Netcore.Common\\BE_072024.Netcore.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

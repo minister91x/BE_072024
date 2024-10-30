@@ -246,3 +246,5 @@ D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\b
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\obj\Debug\net6.0\BE_072024.WebAspNetCoreMVC.csproj.AssemblyReference.cache
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\obj\Debug\net6.0\BE_07202.82408408.Up2Date
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutLogin.cshtml.rz.scp.css
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\bin\Debug\net6.0\BE_072024.Netcore.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.WebAspNetCoreMVC\bin\Debug\net6.0\BE_072024.Netcore.Common.pdb

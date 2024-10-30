@@ -7,3 +7,12 @@ C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Admin\source\repos\BE_07_2024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common_NetFrameWork.csproj.CopyComplete
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\BE072024.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\BE072024.Common.pdb
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\Newtonsoft.Json.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\bin\Debug\Newtonsoft.Json.xml
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common_NetFrameWork.csproj.AssemblyReference.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common_NetFrameWork.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.18B7C4AE.Up2Date
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE072024.Common\obj\Debug\BE072024.Common.pdb

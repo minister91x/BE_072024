@@ -1,0 +1,12 @@
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.deps.json
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.pdb
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.AssemblyInfoInputs.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.AssemblyInfo.cs
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.sourcelink.json
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\refint\BE_072024.Netcore.Common.dll
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.pdb
+D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\ref\BE_072024.Netcore.Common.dll
