@@ -2,18 +2,19 @@
 {
     public class LoginRequestData
     {
-      public string UserName { get; set; }
-      public string PassWord { get; set; }
+      public string? UserName { get; set; }
+      public string? PassWord { get; set; }
     }
 
     public class ReturnData
     {
-        public int ResponseCode { get; set; }
-        public string ResponseMes { get; set; }
+        public int ReturnCode { get; set; }
+        public string? ReturnMessage { get; set; }
     }
 
     public class LoginResponseData: ReturnData
     {
-        public string token { get; set; }
+      
+        public string? token { get; set; }
     }
 }

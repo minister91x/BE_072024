@@ -63,7 +63,7 @@ namespace BE_072024.Netcore.Common
                     StringContent queryString = new StringContent(jsonData, UnicodeEncoding.UTF8, "application/json");
 
                     var url = baseUrl + api;
-                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer ", token);
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                     HttpResponseMessage response = await client.PostAsync(new Uri(url), queryString);
 
                     if (response.IsSuccessStatusCode)
@@ -74,6 +74,7 @@ namespace BE_072024.Netcore.Common
                     {
                         return string.Empty;
                     }
+                    //return await response.Content.ReadAsStringAsync();
                 }
             }
             catch (Exception)

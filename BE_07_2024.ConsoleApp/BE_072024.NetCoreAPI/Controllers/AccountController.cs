@@ -63,16 +63,16 @@ namespace BE_072024.NetCoreAPI.Controllers
                 var rs = await _accountServices.Account_UpdateRefeshToken(req);
                 var token = new JwtSecurityTokenHandler().WriteToken(newtoken);
                 // sẽ lưu token , IP , vị trí , thiết bị vào RedisCaching 
-                var remoteIpAddress = Request.HttpContext.Connection.RemoteIpAddress;
+                //var remoteIpAddress = Request.HttpContext.Connection.RemoteIpAddress;
 
-                var req_ss = new User_Sessions
-                {
-                    Token = token,
-                    CreatedTime = DateTime.Now,
-                    DeviceID = "ABXXZZ",
-                    UserID= user.UserID,
-                };
-                await _accountServices.User_Sessions_Insert(req_ss);
+                //var req_ss = new User_Sessions
+                //{
+                //    Token = token,
+                //    CreatedTime = DateTime.Now,
+                //    DeviceID = "ABXXZZ",
+                //    UserID= user.UserID,
+                //};
+                //await _accountServices.User_Sessions_Insert(req_ss);
 
                 // Bước 3: trả về token
                 returnData.ReturnCode = result.ReturnCode;

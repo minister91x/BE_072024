@@ -3223,11 +3223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
       "projectName": "BE_072024.NetCoreAPI",
-      "projectPath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\BE_072024.NetCoreAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.NetCoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3245,8 +3245,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
-              "projectPath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj"
+            "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\DataAccess.NetCore\\DataAccess.NetCore.csproj"
             }
           }
         }

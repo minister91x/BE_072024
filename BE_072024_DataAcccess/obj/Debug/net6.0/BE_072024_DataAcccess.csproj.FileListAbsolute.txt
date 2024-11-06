@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.sourcelink.json
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\bin\Debug\net6.0\BE_072024_DataAcccess.deps.json
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\bin\Debug\net6.0\BE_072024_DataAcccess.dll
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\bin\Debug\net6.0\BE_072024_DataAcccess.pdb
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\bin\Debug\net6.0\BE_072024.Common.dll
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\bin\Debug\net6.0\BE_072024.Common.pdb
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_07202.291C0ADB.Up2Date
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.dll
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\refint\BE_072024_DataAcccess.dll
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\BE_072024_DataAcccess.pdb
+C:\Users\Admin\source\repos\BE_072024\BE_072024_DataAcccess\obj\Debug\net6.0\ref\BE_072024_DataAcccess.dll

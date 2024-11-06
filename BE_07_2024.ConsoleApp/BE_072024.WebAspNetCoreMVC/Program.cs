@@ -1,7 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAntiforgery(options =>
+{
+    options.Cookie.Name = "MyAntiForgeryCookie";
+    options.HeaderName = "X-CSRF-TOKEN"; // Cho các yêu cầu AJAX
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

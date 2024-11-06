@@ -35,7 +35,7 @@ namespace BE_072024.NetCoreAPI.Controllers
         }
 
         [HttpPost("Room_GetAll")]
-        //  [BE_072024Authorize("Room_GetAll", "VIEW")]
+        [BE_072024Authorize("Room_GetAll", "VIEW")]
         public async Task<ActionResult> Room_GetAll(HB_RoomGetAllRequestData requestData)
         {
             var list = new List<BE072024_HB_Rooms>();

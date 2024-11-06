@@ -1,7 +1,84 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|solutionrelative:be_072024\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\dapper\\applicationdbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\dapper\\applicationdbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\services\\roomrepositorydapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\services\\roomrepositorydapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\dapper\\baseapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\dapper\\baseapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|solutionrelative:be_072024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|solutionrelative:be_072024\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\iservices\\iroomrepositorydapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\iservices\\iroomrepositorydapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\dapper\\iapplicationdbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\dapper\\iapplicationdbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04D2AC8D-6B0A-4FE1-B060-E3227BBC4438}|BE_072024\\BE_072024.csproj|solutionrelative:be_072024\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\iservices\\iaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\iservices\\iaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C460A-2EC0-4936-BC7C-BA6428692EF4}|BE_072024.Common\\BE_072024.Common.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024.common\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C460A-2EC0-4936-BC7C-BA6428692EF4}|BE_072024.Common\\BE_072024.Common.csproj|solutionrelative:be_072024.common\\httpclienthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C460A-2EC0-4936-BC7C-BA6428692EF4}|BE_072024.Common\\BE_072024.Common.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C460A-2EC0-4936-BC7C-BA6428692EF4}|BE_072024.Common\\BE_072024.Common.csproj|solutionrelative:be_072024.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\do\\be072024_hb_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\do\\be072024_hb_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\dapper\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\dapper\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\dbcontext\\be_072024ddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\dbcontext\\be_072024ddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\be_072024_dataacccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\be_072024_dataacccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|c:\\users\\admin\\source\\repos\\be_072024\\be_072024_dataacccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981E2049-FEBB-4BD4-8EA4-DFF639B14A87}|BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj|solutionrelative:be_072024_dataacccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +95,253 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\BaseApplicationService.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Dapper\\BaseApplicationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\BaseApplicationService.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Dapper\\BaseApplicationService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:29:39.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomRepositoryDapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Services\\RoomRepositoryDapper.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Services\\RoomRepositoryDapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Services\\RoomRepositoryDapper.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Services\\RoomRepositoryDapper.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:28:49.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "BE_072024\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "BE_072024\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAApwB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:26:47.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Program.cs",
+              "RelativeDocumentMoniker": "BE_072024\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Program.cs",
+              "RelativeToolTip": "BE_072024\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:36:56.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\ApplicationDbConnection.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Dapper\\ApplicationDbConnection.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\ApplicationDbConnection.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Dapper\\ApplicationDbConnection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:30:38.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BE_072024\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BE_072024\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:20:01.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRoomRepositoryDapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\IServices\\IRoomRepositoryDapper.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\IServices\\IRoomRepositoryDapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\IServices\\IRoomRepositoryDapper.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\IServices\\IRoomRepositoryDapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:49:04.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\appsettings.json",
+              "RelativeDocumentMoniker": "BE_072024\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024\\appsettings.json",
+              "RelativeToolTip": "BE_072024\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T13:39:19.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BE072024_HB_User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DO\\BE072024_HB_User.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\DO\\BE072024_HB_User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DO\\BE072024_HB_User.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\DO\\BE072024_HB_User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:32:55.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IApplicationDbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\IApplicationDbConnection.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Dapper\\IApplicationDbConnection.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\IApplicationDbConnection.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Dapper\\IApplicationDbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:29:31.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Services\\AccountServices.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Services\\AccountServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Services\\AccountServices.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Services\\AccountServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:33:07.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "BE_072024.Common\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024.Common\\Class1.cs",
+              "RelativeToolTip": "BE_072024.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:33:29.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HttpClientHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024.Common\\HttpClientHelper.cs",
+              "RelativeDocumentMoniker": "BE_072024.Common\\HttpClientHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024.Common\\HttpClientHelper.cs",
+              "RelativeToolTip": "BE_072024.Common\\HttpClientHelper.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:33:50.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAccountServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\IServices\\IAccountServices.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\IServices\\IAccountServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\IServices\\IAccountServices.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\IServices\\IAccountServices.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:26:25.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\Class.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Dapper\\Class.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Dapper\\Class.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Dapper\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:29:37.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DO\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\DO\\AccountDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DO\\AccountDTO.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\DO\\AccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:26:01.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BE_072024_DataAcccess",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj",
+              "RelativeToolTip": "BE_072024_DataAcccess\\BE_072024_DataAcccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T13:24:23.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BE_072024dDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DBContext\\BE_072024dDbContext.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\DBContext\\BE_072024dDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\DBContext\\BE_072024dDbContext.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\DBContext\\BE_072024dDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:24:28.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Class1.cs",
+              "RelativeDocumentMoniker": "BE_072024_DataAcccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_072024_DataAcccess\\Class1.cs",
+              "RelativeToolTip": "BE_072024_DataAcccess\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:22:50.729Z",
+              "EditorCaption": ""
             }
           ]
         }

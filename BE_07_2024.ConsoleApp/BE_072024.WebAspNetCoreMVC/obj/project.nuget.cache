@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "28bP+35duVY=",
+  "dgSpecHash": "/kBauWEEfMQ=",
   "success": true,
-  "projectFilePath": "D:\\SourceCode\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\BE_072024\\BE_07_2024.ConsoleApp\\BE_072024.WebAspNetCoreMVC\\BE_072024.WebAspNetCoreMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -24,7 +24,7 @@ namespace BE_072024.NetCoreAPI.Dapper
 
         public void Dispose()
         {
-            this.Dispose();
+           //this.Dispose();
         }
         public async Task<int> ExecuteAsync(string sql, object param = null, CommandType commandType = CommandType.StoredProcedure, IDbTransaction transaction = null, CancellationToken cancellationToken = default)
         {

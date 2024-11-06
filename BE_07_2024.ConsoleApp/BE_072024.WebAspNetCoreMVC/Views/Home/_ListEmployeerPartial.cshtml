@@ -1,11 +1,10 @@
-﻿@model List<BE_072024.WebAspNetCoreMVC.Models.Employeer>
-<p>ĐÂY LÀ PARTIAL VIEW 11111</p>
+﻿@model List<BE_072024.WebAspNetCoreMVC.Models.BE072024_HB_Rooms>
 <table class="table">
     <thead>
         <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
+            <th>RoomID</th>
+            <th>RoomNumber</th>
+            <th>RoomSquare</th>
         </tr>
     </thead>
     <tbody>
@@ -14,18 +13,28 @@
             foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.Firstname</td>
-                    <td>@item.LastName</td>
-                    <td>@item.Email</td>
+                    <td>@item.RoomID</td>
+                    <td>@item.RoomNumber</td>
+                    <td>@item.RoomSquare</td>
                 </tr>
             }
         }
         else
         {
-            <tr>
-                <td colspan="3">Không tồn tại dữ liệu</td>
+            @if (!string.IsNullOrEmpty(ViewBag.Message))
+            {
+                <tr>
+                    <td colspan="3" style="color:red;font-style:italic;">@ViewBag.Message</td>
 
-            </tr>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">Không tồn tại dữ liệu</td>
+
+                </tr>
+            }
         }
 
     </tbody>

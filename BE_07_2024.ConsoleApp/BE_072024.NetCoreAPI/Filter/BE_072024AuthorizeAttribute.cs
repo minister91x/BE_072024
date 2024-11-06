@@ -46,8 +46,8 @@ namespace BE_072024.NetCoreAPI.Filter
                     context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
                     context.Result = new JsonResult(new
                     {
-                        Code = System.Net.HttpStatusCode.Unauthorized,
-                        Message = "Vui lòng đăng nhập để thực hiện chức năng này "
+                        ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                        ReturnMessage = "Vui lòng đăng nhập để thực hiện chức năng này "
                     });
                     return;
 
@@ -63,8 +63,8 @@ namespace BE_072024.NetCoreAPI.Filter
                     context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
                     context.Result = new JsonResult(new
                     {
-                        Code = System.Net.HttpStatusCode.Unauthorized,
-                        Message = "Chức năng không hợp lệ! "
+                        ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                        ReturnMessage = "Chức năng không hợp lệ! "
                     });
                     return;
                 }
@@ -77,8 +77,8 @@ namespace BE_072024.NetCoreAPI.Filter
                     context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
                     context.Result = new JsonResult(new
                     {
-                        Code = System.Net.HttpStatusCode.Unauthorized,
-                        Message = "Chức năng không hợp lệ! "
+                        ReturnCode = System.Net.HttpStatusCode.Forbidden,
+                        ReturnMessage = "Chức năng không hợp lệ! "
                     });
                     return;
                 }
@@ -93,8 +93,8 @@ namespace BE_072024.NetCoreAPI.Filter
                             context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
                             context.Result = new JsonResult(new
                             {
-                                Code = System.Net.HttpStatusCode.Unauthorized,
-                                Message = "Bạn không có quyền thực hiện Chức năng này!"
+                                ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                                ReturnMessage = "Bạn không có quyền thực hiện Chức năng này!"
                             });
                             return;
                         }
@@ -108,8 +108,8 @@ namespace BE_072024.NetCoreAPI.Filter
                             context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
                             context.Result = new JsonResult(new
                             {
-                                Code = System.Net.HttpStatusCode.Unauthorized,
-                                Message = "Bạn không có quyền thực hiện Chức năng này!"
+                                ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                                ReturnMessage = "Bạn không có quyền thực hiện Chức năng này!"
                             });
                             return;
                         }

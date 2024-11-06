@@ -10,3 +10,15 @@ D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\refint\BE_072024.Netcore.Common.dll
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.pdb
 D:\SourceCode\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\ref\BE_072024.Netcore.Common.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.deps.json
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\bin\Debug\net6.0\BE_072024.Netcore.Common.pdb
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.sourcelink.json
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\refint\BE_072024.Netcore.Common.dll
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\BE_072024.Netcore.Common.pdb
+C:\Users\Admin\source\repos\BE_072024\BE_07_2024.ConsoleApp\BE_072024.Netcore.Common\obj\Debug\net6.0\ref\BE_072024.Netcore.Common.dll

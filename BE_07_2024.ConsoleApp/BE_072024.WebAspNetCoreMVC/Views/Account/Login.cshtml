@@ -96,13 +96,28 @@
                // dataType: "html",
                 dataType:"json",
                 success: function (rs) {
-                    alert(JSON.stringify(rs));
+                    //alert(JSON.stringify(rs));
+                    if (rs.returnCode == 1) {
+                        setCookie("BE_072024_TOKEN", rs.token, 1);
+
+                        window.location.href = "/";
+
+                    }
                 },
                 error(rs) {
                     console.log(JSON.stringify(rs));
                 }
             });
         }
+
+        function setCookie(cname, cvalue, exdays) {
+            const d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            let expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        
     </script>
 
 }
